@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APITestSuite">
+    <test name="CreateTokenTest">
+        <groups>
+            <run>
+                <include name="P1">
+
+                </include>
+            </run>
+        </groups>
+
+
+        <classes>
+            <class name="com.utkalikapanda.ex06_TestNG_examples.Group_sanity_test"/>
+        </classes>
+    </test>
+</suite>
