@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APITestSuite">
+    <test name="CreateTokenTest">
+        <parameter name="browser" value="chrome"></parameter>
+
+
+        <classes>
+            <class name="com.utkalikapanda.ex06_TestNG_examples.TestNG_Parametres"/>
+        </classes>
+    </test>
+</suite>
